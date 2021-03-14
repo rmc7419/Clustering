@@ -17,14 +17,14 @@ In Clustering we have :
 A)	Hierarchial Clustering:-
 
 This is mainly used for Numerical data, it is also called as bottom-up approach. In this, among all the records two records which are having less Euclidean distance are merged in to one cluster and again this cluster inturn with which it is having less euclidean distance that record is merged with the cluster.
-Now how to calculate distance between 2 clusters or distance between cluster and record ?
+     Now how to calculate distance between 2 clusters or distance between cluster and record ?
 
-For this we have different methods:
+     For this we have different methods:
 
-1. Single linkage method : *It will consider minimum distance*
-2. Complete linkage method : *It will consider maximum distance*
-3. Average linkage method : *It will consider average of all distances*
-4. centroid linkage method : *It will consider centroid of records of one cluster and centroid of records of other cluster and now distance between these two centroids is considered.*
+    1. Single linkage method : *It will consider minimum distance*
+    2. Complete linkage method : *It will consider maximum distance*
+    3. Average linkage method : *It will consider average of all distances*
+    4. centroid linkage method : *It will consider centroid of records of one cluster and centroid of records of other cluster and now distance between these two centroids is considered.*
 
 Summarization of entire cluster process is done using Dendogram
 
@@ -40,14 +40,14 @@ Disadvantages :
 
 B)	K means Clustering:- 
 
-step 1: K= 3, we can take different values for K, here K=3 so entire data is randomly divided in to 3 parts need not be equal.
-step 2: Centroid computation - calculate centroid for each part.
-step 3: find distance from centroid to all datapoints in each part.
-step 4: Move data point in to nearest centroid.
-step 5: Recompute centroids.
-step 6: Repeat steps from 3 to 5 until there is no need to move data points from one cluster to other cluster.
+     step 1: K= 3, we can take different values for K, here K=3 so entire data is randomly divided in to 3 parts need not be equal.
+     step 2: Centroid computation - calculate centroid for each part.
+     step 3: find distance from centroid to all datapoints in each part.
+     step 4: Move data point in to nearest centroid.
+     step 5: Recompute centroids.
+     step 6: Repeat steps from 3 to 5 until there is no need to move data points from one cluster to other cluster.
 
-By using Elbow graph or screw plot we will decide proper K-value.
+    By using Elbow graph or screw plot we will decide proper K-value.
 
 Advantages:
 
@@ -87,9 +87,9 @@ There are some disadvantages in Hierarchial clustering and K - means Clustering,
 	Note:If not core point and not border point then it is noise or outliers
 
 Data used:
-      ,
+      
 1)	Crime Dataset    
-2)	 Airlines Dataset
+2)	Airlines Dataset
 
 Programming language:Python
 
